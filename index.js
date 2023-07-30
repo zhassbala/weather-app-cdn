@@ -1,4 +1,4 @@
-var link = document.createElement("link");
+const link = document.createElement("link");
 link.href =
   "https://cdn.jsdelivr.net/gh/zhassbala/weather-app-cdn/index-b753b33f.css";
 link.type = "text/css";
