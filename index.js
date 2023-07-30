@@ -4,7 +4,8 @@ link.href =
 link.type = "text/css";
 link.rel = "stylesheet";
 link.media = "screen,print";
+link.onload = () => {
+  import("./index-e8206105.js");
+};
 
 document.getElementsByTagName("head")[0].appendChild(link);
-
-import "./index-e8206105.js";
