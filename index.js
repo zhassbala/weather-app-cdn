@@ -1,5 +1,6 @@
 var link = document.createElement("link");
-link.href = location.href + "index-b753b33f.css";
+link.href =
+  "https://cdn.jsdelivr.net/gh/zhassbala/weather-app-cdn/index-b753b33f.css";
 link.type = "text/css";
 link.rel = "stylesheet";
 link.media = "screen,print";
